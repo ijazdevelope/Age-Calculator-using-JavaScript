@@ -29,7 +29,7 @@ function calculateDiff(){
     days = Math.floor(31 - (FromYear + years, FromMonth + months - 1, FromDay));
   
     //answer order
-    var answer = years + " years, " + months + " months, and " + days + " days.";
+    var answer = years + " years old, " + months + " months, and " + days + " days.";
   
     //post answer
     document.getElementById("result").textContent =  answer;
