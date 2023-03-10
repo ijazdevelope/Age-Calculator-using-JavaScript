@@ -1,0 +1,53 @@
+:root {
+    --white-clr: #fff;
+    --black-clr: #333;
+    --input-border-clr: #ccc;
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black-clr);
+    color: var(--white-clr);
+    font-family: sans-serif;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 1rem 0;
+}
+
+table {
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid var(--input-border-clr);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: var(--white-clr);
+    border-radius: 4px;
+    border: none;
+    color: var(--black-clr);
+    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
